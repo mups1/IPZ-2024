@@ -1,0 +1,145 @@
+{
+	"info": {
+		"_postman_id": "8d8f97c3-742b-4ece-a9e2-698a8b182d6d",
+		"name": "anime.request",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "39713240"
+	},
+	"item": [
+		{
+			"name": "Random Recommendation",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://api.anidb.net:9001/httpapi?request=randomrecommendation",
+					"protocol": "http",
+					"host": [
+						"api",
+						"anidb",
+						"net"
+					],
+					"port": "9001",
+					"path": [
+						"httpapi"
+					],
+					"query": [
+						{
+							"key": "request",
+							"value": "randomrecommendation"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Random Similar",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://api.anidb.net:9001/httpapi?request=randomsimilar",
+					"protocol": "http",
+					"host": [
+						"api",
+						"anidb",
+						"net"
+					],
+					"port": "9001",
+					"path": [
+						"httpapi"
+					],
+					"query": [
+						{
+							"key": "request",
+							"value": "randomsimilar"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Hot Anime",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://api.anidb.net:9001/httpapi?request=hotanime",
+					"protocol": "http",
+					"host": [
+						"api",
+						"anidb",
+						"net"
+					],
+					"port": "9001",
+					"path": [
+						"httpapi"
+					],
+					"query": [
+						{
+							"key": "request",
+							"value": "hotanime"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Main",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://api.anidb.net:9001/httpapi?request=main",
+					"protocol": "http",
+					"host": [
+						"api",
+						"anidb",
+						"net"
+					],
+					"port": "9001",
+					"path": [
+						"httpapi"
+					],
+					"query": [
+						{
+							"key": "request",
+							"value": "main"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "anime",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://api.anidb.net:9001/httpapi?request=anime",
+					"protocol": "http",
+					"host": [
+						"api",
+						"anidb",
+						"net"
+					],
+					"port": "9001",
+					"path": [
+						"httpapi"
+					],
+					"query": [
+						{
+							"key": "request",
+							"value": "anime"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
